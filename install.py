@@ -11,13 +11,13 @@ def ensure_dir(f):
 
 def link(path, target):
     pathexists = os.path.exists(path)
-    if not pathexists:
-        ensure_dir(path)
     targetexists = os.path.exists(target)
-    if not pathexists and not targetexists:
-            raise ValueError('path ' + path + 'does not exists')
-    if targetexists and not pathexists:
+    if not pathexists:
+        if targetexists:
+            ensure_dir(path)
             shutil.move(target, path)
+        else:
+            raise ValueError('path ' + path + 'does not exists')
 
     if targetexists:
         now = datetime.datetime.now()
