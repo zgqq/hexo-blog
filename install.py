@@ -29,11 +29,15 @@ def link(path, target):
     os.symlink(path, target)
 
 
-def linkblog(source):
+def home_link(path, target):
     home = expanduser("~")
-    path = home + '/Dropbox/Blog/zgqq.github.io/' + source
-    target = home + '/Blog/zgqq.github.io/' + source
-    link(path, target)
+    link(home + '/'+path, home + '/'+target)
+
+
+def linkblog(source):
+    path = 'Dropbox/Blog/zgqq.github.io/' + source
+    target = 'Blog/zgqq.github.io/' + source
+    home_link(path, target)
     print('link' + path + 'to' + target)
 
 
