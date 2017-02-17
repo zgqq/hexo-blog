@@ -9,11 +9,10 @@ Email：zgqjava@gmail.com
 微信：z4001234
 
 # 个人信息
-* 深圳/男/1995
-* 大专/河源职业技术学院
+* 詹桂琦/男/1995
 * Github：http://github.com/zgqq 
 * 期望职位：Java程序员
-* 期望薪资：4.5k~7k
+* 期望薪资：4k~6k
 * 期望城市：深圳
 * 个人标签：javaer,linuxer,vimer,jetbrains fans
 
