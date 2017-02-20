@@ -12,13 +12,13 @@ Email：zgqjava@gmail.com
 * 詹桂琦/男/1995
 * Github：http://github.com/zgqq 
 * 期望职位：Java程序员
-* 期望薪资：4k~6k
+* 期望薪资：3k~4.5k
 * 期望城市：深圳
 * 个人标签：javaer,linuxer,vimer,jetbrains fans
 
 # 开源项目和作品
 ## Mah
- [Mah](https://github.com/zgqq/mah) ：一个类似alfred的生产力工具，目前已经收到30个star
+ [Mah](https://github.com/zgqq/mah) ：一个类似alfred的生产力工具，目前已经收到40个star
 * 特色
     1. 支持插件
     2. 异步执行
