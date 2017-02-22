@@ -10,6 +10,7 @@ Email：zgqjava@gmail.com
 
 # 个人信息
 * 詹桂琦/男/1995
+* 英语四级: 522
 * Github：http://github.com/zgqq 
 * 期望职位：Java程序员
 * 期望薪资：3k~4.5k
