@@ -24,4 +24,9 @@ tags:
 * 第三个坑就是int类型溢出，统计response size 的时候，记录太大，用int容易溢出，造成结果无法理解
 
 # 第三天
-修复很多环境问题，启动就是fasd无法记录进过的目录，这个问题容易解决，zshrc加入fasd插件，fzf快捷键无法使用，执行一下~/.fzf/install就行了。virtualbox镜像启动不了，可能是镜像不完整，用idea项目结构有时候会很奇怪，直接把项目下.idea目录给删了就行，idea还有一个神级posfix，就是lambda，很好的辅助完成哦
+## 修复很多环境问题
+* 其中就是fasd无法记录进过的目录，这个问题容易解决，zshrc加入fasd插件
+* fzf快捷键无法使用，执行一下~/.fzf/install就行了
+* virtualbox镜像启动不了，可能是镜像不完整
+* 用idea项目结构有时候会很奇怪，直接把项目下.idea目录给删了就行
+* idea还有一个神级后缀完成，就是lambda，很好的辅助完成哦
