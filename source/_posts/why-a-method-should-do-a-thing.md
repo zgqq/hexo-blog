@@ -11,7 +11,7 @@ tags:
     public void enterRoomBlockIfInBlocklist(Long userId){
         boolean inBlocklist = false;
         for (Long blockId:blockIds){
-        if (lockId.equals(userId)) {
+        if (blockId.equals(userId)) {
                 inBlockList = true;
                 break;
             }
@@ -35,7 +35,7 @@ tags:
     
     public void isInBlockList(Long userId) {
         for (Long blockId:blockIds){
-        if (lockId.equals(userId)) {
+        if (blockId.equals(userId)) {
                 return true;
             }
         }
