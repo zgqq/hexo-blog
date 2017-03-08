@@ -1,5 +1,5 @@
 ---
-title: Why-i-don't-like-community-config-like-spacemacs
+title: why-i-don't-like-community-config-like-spacemacs
 date: 2017-03-06 13:32:14
 tags:
 ---
